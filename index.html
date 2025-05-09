@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/@chrisoakman/chessboardjs@1.0.0/dist/chessboard-1.0.0.css" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@chrisoakman/chessboardjs@1.0.0/dist/chessboard-1.0.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.3/chess.min.js"></script>
+    <title>AI Catur - Chess Analyzer</title>
+</head>
+<body>
+    <h1>AI Catur - Chess Analyzer</h1>
+    <div id="chessboard" style="width: 400px"></div>
+    <button onclick="analyzePosition()">Analyze Position</button>
+    <button onclick="undoMove()">Undo</button>
+    <button onclick="redoMove()">Redo</button>
+    <button onclick="saveGame()">Save Game</button>
+    <button onclick="loadGame()">Load Game</button>
+    <button onclick="resetBoard()">Reset Board</button>
+    <button onclick="flipBoard()">Flip Board</button>
+    <script src="script.js"></script>
+</body>
+</html>
